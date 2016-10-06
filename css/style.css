@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 600px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+.menu {
+	display: flex;
+	border-top: 1px solid #000;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+	list-style-type: none;	
+}
+
+.menu-item {
+	width: 33.3%;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	text-align: center;
+	cursor: pointer;
+}
+
+.menu-item:last-child {
+	border-right: 0;
+}
+
+.menu li.active {
+	cursor: auto;
+	border-bottom: 0;
+}
+
+.text {
+	display: none;
+	padding: 5px;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-left: 1px solid #000;
+}
+
+.active {
+	display: block;
+}
+
